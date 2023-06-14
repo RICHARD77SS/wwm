@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider, DefaultTheme } from 'styled-components';
+import usePersistedState from './Hooks/usePersistedState';
+import light from './Styles/Themes/light';
+import dark from './Styles/Themes/dark';
+import GlobalStyle from './Styles/GlobalStyles';
+import { createBrowserRouter, RouterProvider, Route, Routes, Link } from 'react-router-dom'
+import Navbar from './Components/Navbar';
+import router from './routes';
 
 function App() {
+  const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
+  const toggleTheme = () => {
+    setTheme(theme.title === 'light' ? dark : light)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Navbar></Navbar>
+      <RouterProvider router={router} />
+    </ThemeProvider>
   );
 }
 
 export default App;
+
