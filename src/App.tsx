@@ -16,7 +16,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Navbar></Navbar>
       <RouterProvider router={router} />
     </ThemeProvider>
   );

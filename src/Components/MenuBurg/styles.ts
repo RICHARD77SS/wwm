@@ -8,11 +8,11 @@ export const MenuList = styled.ul`
     z-index:20;
   @media (max-width:720px){
     width: 100%;
-    height: auto;
+    height: 350px;
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     justify-content:flex-start;
     background:${Props => Props.theme.colors.sec};
     z-index:20;
@@ -24,6 +24,15 @@ export const MenuBg = styled.div`
     align-items: center;
     justify-content:center;
     right: 0;
+    button{
+      width: 100px;
+      height: 50px;
+      font-size: 1rem;
+      background-color:transparent;
+      @media(min-width: 700px){
+        display:none;
+      }
+    }
 
 `
 export const Itens = styled.div`
@@ -35,6 +44,7 @@ export const Itens = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content:flex-start;
+
 `
 export const Closed = styled.div`
   position:fixed;

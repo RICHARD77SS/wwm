@@ -2,12 +2,11 @@ import styled from 'styled-components'
 
 export const Homes = styled.div`
   width: 100%;
-  height: 800px;
-  background: rgba(0,0,0);
+  background: #f4f4f4;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content:Center;
-  padding-top:4rem;
+  flex-direction: column;
   h2 {
     color:#fff;
     font-size:50px;

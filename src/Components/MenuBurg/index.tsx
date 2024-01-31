@@ -2,19 +2,23 @@ import { Closed, MenuList, MenuBg, Itens } from "./styles";
 import React from "react";
 import Menu from "../Menu";
 
-const MenuBurg = () => {
+interface Props {
+  children?: React.ReactNode
+}
+
+const MenuBurg = ({ children, ...Props }:Props) => {
   const [openMenu, setOpenMenu] = React.useState(false);
 
   const toggleMenu = () => { setOpenMenu(openMenu === true ? false : true) }
 
   return (
-    <MenuBg>
-      <button onClick={() => toggleMenu()}>aaa</button>
+    <MenuBg {...Props}>
+      <button onClick={() => toggleMenu()}>Menu</button>
       {openMenu ?
         <Itens>
           <Closed onClick={() => toggleMenu()}></Closed>
           <MenuList>
-            <Menu></Menu>
+            {children}
           </MenuList>
         </Itens>
         : null}

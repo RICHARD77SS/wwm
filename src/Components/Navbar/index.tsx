@@ -1,21 +1,14 @@
-import React from 'react'
-import Logo from "../Logo";
-import Menu from "../Menu";
-import { TopNav, Itens } from "./styles";
-import MenuBurg from '../MenuBurg';
+import Logo from "../Logo"
+import Menu from "../Menu"
+import MenuBurg from "../MenuBurg"
+import Nav from "../Nav"
 
 
 const Navbar = () => {
 
 
   return (
-    <TopNav>
-      <Logo></Logo>
-      <Itens>
-        <Menu></Menu>
-      </Itens>
-      <MenuBurg></MenuBurg>
-    </TopNav>
+    <Nav logo={<Logo></Logo>} menu={<Menu></Menu>} menuBurg={<MenuBurg><Menu></Menu></MenuBurg>} />
   )
 }
 

@@ -10,9 +10,10 @@ export const Item = styled.li`
   border-radius: 10px;
   font-weight: 600;
   cursor:pointer;
-  font-size: 1rem;
+  font-size: 1.5rem;
+
   a {
-    color: ${Props => Props.theme.colors.title};
+    color:  ${Props => Props.theme.colors.sec};
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -20,7 +21,7 @@ export const Item = styled.li`
     align-items:Center;
     justify-content: center;
     :hover {
-    color: #fff;
+    color:#fff;
     }
   }
 `

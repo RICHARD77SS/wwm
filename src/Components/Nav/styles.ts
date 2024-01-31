@@ -2,17 +2,18 @@ import styled from 'styled-components'
 
 export const TopNav = styled.nav`
   width: 100%;
-  height: 80px;
+  height: 160px;
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   background: ${Props => Props.theme.colors.pri};
   border-bottom: 5px solid #dcf763;
+  padding: 0 10%;
   button{
     width: 40px;
     height: 30px;
     margin: 10px;
-    display: none;
+
   }
   h2{
     margin: 8px 10px;
@@ -20,8 +21,10 @@ export const TopNav = styled.nav`
   @media (max-width: 720px){
     button{
       display: block;
-      background: #dcf763;
       border: none;
+      width: auto;
+      color:#000;
+      font-size: 1rem;
     }
   }
 `
