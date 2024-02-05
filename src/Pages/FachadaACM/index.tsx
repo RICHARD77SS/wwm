@@ -68,15 +68,24 @@ const Dropshipping = () => {
             <SliderImage>
               <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/294058294_1707781136241438_3911643719587324707_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=5IpiNBh3O5oAX-T6H2m&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfDc52o6S0JtjvFu1AQwXL661v8cLU-oocD5ijKp_SED1Q&oe=65B21045" alt="" />
             </SliderImage>
+            <SliderImage>
+              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/301531396_1737549803264571_4146312290397619909_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=So-_3lCY4jgAX9GTtjN&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfCoChAzegzKLprvdNvFQwSdQoafq17zle6tC8NsFYFW7w&oe=65C112D9" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/293927884_1707591316260420_5429961697277660090_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=aesJ-_eDQCYAX9qIyH4&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfBTh1MpcgVAHvp0rasPwdLNhjvTS7Lpvz9082orfNqKTw&oe=65C196C1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t1.6435-9/150192668_1344783705874518_1011494609186322100_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=3ViN6Eue2VMAX_qQFgA&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfDBvjwbJl3fvHMLGamcX_d0fcAXIqvfCD8Vh2NEPqvviA&oe=65E35AD8" alt="" />
+            </SliderImage>
           </SliderContainer>
         </More>
         <br />
         <br />
         <Block>
-          <h2>A fachada e a Estilização</h2>
+          <h2>A fachada e complementos</h2>
           <br />
           <p>A fachada consiste em uma estrutura metalica feita em tupos de metal falvanizado resistente a corrosão e fixada com uma cola de alta resistencia para melhor acabamento</p>
-          <p>Ja a estilizacão Para compelementar sua fachada, pode ser feita atraves de letras em alto relevo com materiais diversos, adesivos personalizados e diversos tipos de iluminação para fins decorativo afim de atrair mais foco a seu estabelecimento</p>
+          <p>Ja a estilizacão Para personalizar sua fachada, pode ser feita atraves de letras em alto relevo com materiais diversos, adesivos personalizados e diversos tipos de iluminação para fins decorativo afim de atrair mais foco a seu estabelecimento</p>
         </Block>
       </Content>
     </Container>

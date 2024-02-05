@@ -18,7 +18,7 @@ export const TopNav = styled.nav`
   h2{
     margin: 8px 10px;
   }
-  @media (max-width: 720px){
+  @media (max-width: 1058px){
     button{
       display: block;
       border: none;
@@ -30,7 +30,7 @@ export const TopNav = styled.nav`
 `
 export const Itens = styled.div`
   width: 90%;
-   @media (max-width: 720px){
+   @media (max-width: 1058px){
     ul{
       display: none;
     }

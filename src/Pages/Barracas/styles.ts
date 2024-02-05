@@ -64,18 +64,7 @@ export const Img = styled.div`
   width: 200px;
   height: 250px;
   border-radius: 30px 0 30px 0;
-  z-index:20;
   box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.2);
-  :first-child{
-    rotate: -10deg;
-    translate: 2rem 2rem;
-    z-index: 10;
-  }
-  :last-child{
-    rotate:10deg;
-    translate: -2rem 2rem;
-    z-index:30;
-  }
   img{
     width: 100%;
     height:100%;

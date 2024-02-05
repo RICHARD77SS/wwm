@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 
 export const MenuList = styled.ul`
-    width: auto;
+    width: 100%;
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content:center;
-    gap:7%;
-  @media (max-width:720px){
+    justify-content:start;
+  @media (max-width:1058px){
     width: 100%;
     margin-top: 2.5rem;
     height: auto;
@@ -15,9 +14,9 @@ export const MenuList = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content:start;
+    color:#000;
     background:${Props => Props.theme.colors.sec};
-
   }
   button {
     color:#000;
@@ -27,7 +26,6 @@ export const MenuList = styled.ul`
     font-weight: 600;
     cursor:pointer;
     font-size: 1.5rem;
-    
   }
 `
 

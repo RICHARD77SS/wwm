@@ -9,6 +9,7 @@ export const Models = styled.div`
   flex-direction: column;
   gap:10px;
   background: ${Props => Props.theme.colors.sec};
+  padding-bottom: 4rem;
   h2 {
     padding-top: 3rem;
     padding-bottom: 2rem;
@@ -16,16 +17,15 @@ export const Models = styled.div`
   }
 `
 export const Image = styled.div`
-  width: 40%;
+  width: 400px;
   height: auto;
   display:flex;
   align-items:center;
   justify-content:start;
   flex-direction:column;
   gap:1rem;
-  
   h2{
-    color:${Props => Props.theme.colors.pri};
+    color:${Props => Props.theme.colors.title};
   }
   a{
     color:${Props => Props.theme.colors.pri};
@@ -37,13 +37,11 @@ export const Image = styled.div`
   :hover {
     p{
       opacity:1;
-      
     }
   }
   img{
     width: 100%;
     height: 100%;
-    
   }
 `
 export const Wrapper = styled.div`
@@ -59,8 +57,8 @@ export const Block = styled.div`
   width: auto;
   height: auto;
   display: flex;
-  flex-direction: row;
-  align-items: start;
+  flex-direction: column;
+  align-items: center;
   justify-content: start;
   padding-left: 10%;
 `
@@ -69,10 +67,20 @@ export const Description = styled.div`
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   justify-content: center;
-  padding: 1rem;
-  button{
-    
+  padding:  2rem 0 2rem 0; 
+  h3{
+    font-size: 2rem;
+    color: #0a0a0a;
+  }
+  a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+     color:${Props => Props.theme.colors.pri}; 
+     :hover {
+       color:${Props => Props.theme.colors.hover};
+     }
   }
 `  

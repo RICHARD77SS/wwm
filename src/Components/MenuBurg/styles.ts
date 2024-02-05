@@ -6,7 +6,7 @@ export const MenuList = styled.ul`
     align-items: center;
     justify-content:center;
     z-index:20;
-  @media (max-width:720px){
+  @media (max-width:1058px){
     width: 100%;
     height: 350px;
     position: absolute;
@@ -29,7 +29,7 @@ export const MenuBg = styled.div`
       height: 50px;
       font-size: 1rem;
       background-color:transparent;
-      @media(min-width: 700px){
+      @media(min-width: 1058px){
         display:none;
       }
     }

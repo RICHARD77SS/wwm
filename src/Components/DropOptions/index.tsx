@@ -8,8 +8,9 @@ import Button from '../Button';
 interface props {
   optionName?: string
   options?: Array<object>
+  pageLink?: string
 }
-const DropOption = ({ optionName, options, ...Props }: props) => {
+const DropOption = ({ optionName, options, pageLink = '/', ...Props }: props) => {
   const [dropedOpen, setDropedOpen] = React.useState(false);
 
   return (
@@ -17,7 +18,7 @@ const DropOption = ({ optionName, options, ...Props }: props) => {
       <button
         onMouseEnter={() => setDropedOpen(true)}
         onMouseLeave={() => setDropedOpen(false)}
-      >{optionName}</button>
+      ><NavLink to={pageLink}>{optionName}</NavLink></button>
       {dropedOpen ?
         <>
           <Droped onMouseEnter={() => setDropedOpen(true)}

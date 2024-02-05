@@ -8,9 +8,10 @@ export const Container = styled.div`
   flex-direction:column;
   align-items:center;
   justify-content:start;
+  padding-bottom: 4rem;
 `
 export const Content = styled.div`
-  width: 100%;
+  width: 90%;
   height: auto;
   display:flex;
   flex-direction:column;
@@ -64,6 +65,7 @@ export const Img = styled.div`
   width: 200px;
   height: 250px;
   border-radius: 30px 0 30px 0;
+  z-index:20;
   box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.2);
   img{
     width: 100%;

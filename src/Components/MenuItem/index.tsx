@@ -8,9 +8,9 @@ interface Props {
 
 const MenuItem = ({ children, ...Props }: Props) => {
   return (
-    <button {...Props}>
+    <Item{...Props}>
       {children}
-    </button>
+    </Item>
   )
 }
 export default MenuItem

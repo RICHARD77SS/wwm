@@ -4,6 +4,9 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`  
   button{
     width: 150px;
+    :hover {
+       color:${Props => Props.theme.colors.hover};
+    }
   }
 
 `
@@ -17,17 +20,14 @@ export const Droped = styled.div`
   display: flex;
   flex-direction: column;
   align-items:start;
-  background:#000;
- 
-  
-  @media (max-width: 769px){
+  background:${Props => Props.theme.colors.pri};
+  @media (max-width: 1058px){
     background: #dcf763;
     width: 400px;
     height: 350px;
-    left: 60%;
-    top: -1rem;
+    left: 55%;
+    top: -2.5rem;
     box-shadow: inset .5px .5px 10px .5px #000;
-    border-radius: none;
   }
   
 `

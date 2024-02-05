@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Item = styled.li`
   width: 100%;
-  height: 40px;
+  height: 50px;
   border:none;
   display: flex;
   align-items:center;
@@ -11,9 +11,8 @@ export const Item = styled.li`
   font-weight: 600;
   cursor:pointer;
   font-size: 1.5rem;
-
   a {
-    color:  ${Props => Props.theme.colors.sec};
+    color:  #000;
     text-decoration: none;
     width: 100%;
     height: 100%;
