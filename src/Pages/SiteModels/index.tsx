@@ -1,6 +1,9 @@
-import { Link } from "react-router-dom";
+
 import { Models, Image, Wrapper, Block, Description } from "./styles";
 import { NavLink } from "react-router-dom";
+import UplodArea from './../uploadArea/index';
+import StoreImageTextFirebase from "../ImagesTest";
+
 
 const SiteModels = () => {
   return (
@@ -19,6 +22,9 @@ const SiteModels = () => {
         </Block>
 
         <Block>
+          <UplodArea />
+          <br />
+          < StoreImageTextFirebase />
           <Description>
             <h3>Fachadas</h3>
             <NavLink to=''>Saiba mais</NavLink>
