@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     scrollbar-color: rgba(100,100,100,0.5);
   }
   *::-webkit-scrollbar {
-    width: 12px;
+    width: 22px;
   }
   *::-webkit-scrollbar-track {
     background: rgba(0,0,0);
@@ -21,8 +21,9 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 20px;
     border: 1px solid rgba(0,0,0);
   }
-  body {
-    background:${Props=>Props.theme.colors.pri};
-  }
+  * {
+  scrollbar-width: thin;
+  scrollbar-color: black ${Props => Props.theme.colors.pri};
+}
 `
 export default GlobalStyle;

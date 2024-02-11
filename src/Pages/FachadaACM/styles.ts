@@ -32,7 +32,6 @@ export const Block = styled.div`
   h1{
     color:${Props => Props.theme.colors.sec};
   }
-  
   @media (max-width:667px){
     width: 80%;
   }
@@ -93,6 +92,7 @@ export const SliderContainer = styled.div`
   ::-webkit-scrollbar{
     display: none;
 }
+  scrollbar-width: none;
 `
 
 export const SliderImage = styled.div`
@@ -114,7 +114,13 @@ export const ButtonContainer = styled.div`
   position: absolute;
   transform: translatex(-3%);
   button {
-    background-color: #fff;
+    background-color: ${Props => Props.theme.colors.sec};
+    border-radius:50px;
+    border:none;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    :hover {
+      opacity: 0.5;
+    }
     width: 50px;
     height: 50px;
   }

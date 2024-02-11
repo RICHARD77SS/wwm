@@ -28,6 +28,9 @@ export const Block = styled.div`
   h1{
     color:${Props => Props.theme.colors.sec};
   }
+  p{
+    color:#fff;
+  }
   @media (max-width:667px){
     width: 80%;
   }
@@ -42,7 +45,7 @@ export const Image = styled.div`
   }
 `
 export const Flex = styled.div`
-  width: 100%;
+  width: 80%;
   height: auto;
   display:flex;
   align-items: center;
@@ -61,14 +64,13 @@ export const Box = styled.div`
   gap: 16px;
 `
 export const Img = styled.div`
-  width: 200px;
-  height: 250px;
-  border-radius: 30px 0 30px 0;
+  width: 400px;
+  height: 400px;
   box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.2);
   img{
     width: 100%;
     height:100%;
-    border-radius: 30px 0 30px 0;
+
   }
 `
 export const More = styled.div`
@@ -91,6 +93,7 @@ export const SliderContainer = styled.div`
   justify-content: flex-start;
   background-color: #000;
   overflow: scroll;
+  scrollbar-width: none;
   ::-webkit-scrollbar{
     display: none;
 }
@@ -112,7 +115,13 @@ export const ButtonContainer = styled.div`
   position: absolute;
   transform: translatex(-3%);
   button {
-    background-color: #fff;
+    background-color: ${Props => Props.theme.colors.sec};
+    border-radius:50px;
+    border:none;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    :hover {
+      opacity: 0.5;
+    }
     width: 50px;
     height: 50px;
   }

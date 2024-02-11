@@ -15,13 +15,13 @@ const Toldos = () => {
           </Block>
           <Box>
             <Img>
-              <img src="" alt="" />
+              <img src="https://fv2-7.failiem.lv/thumb_show.php?i=wsdry2h5dx&view&v=1" alt="" />
             </Img>
             <Img>
-              <img src="" alt="" />
+              <img src="https://fv2-8.failiem.lv/thumb_show.php?i=xz2dw8e5nw&view&v=1" alt="" />
             </Img>
             <Img>
-              <img src="" alt="" />
+              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=4uaknrfqc4&view&v=1" alt="" />
             </Img>
           </Box>
         </Flex>
@@ -33,20 +33,48 @@ const Toldos = () => {
               <button title='button' onClick={() => { slide!.scrollLeft += 200 }}>r</button>
             </ButtonContainer>
             <SliderImage>
-              <img src="" alt="" />
+              <img src="https://fv2-7.failiem.lv/thumb_show.php?i=wsdry2h5dx&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="" alt="" />
+              <img src="https://fv2-8.failiem.lv/thumb_show.php?i=xz2dw8e5nw&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="" alt="" />
+              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=4uaknrfqc4&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="" alt="" />
+              <img src="https://fv2-5.failiem.lv/thumb_show.php?i=ustt52tr7g&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="" alt="" />
+              <img src="https://fv2-7.failiem.lv/thumb_show.php?i=mneeq9hkzd&view&v=1" alt="" />
             </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=fnfh4ehapp&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-5.failiem.lv/thumb_show.php?i=3wc2qcjpdf&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-3.failiem.lv/thumb_show.php?i=4m7nfd3sfk&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=cmfuuffcvs&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-7.failiem.lv/thumb_show.php?i=cyyw2q95r4&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-3.failiem.lv/thumb_show.php?i=a2ktfxqazf&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-6.failiem.lv/thumb_show.php?i=4w5s2zqnt6&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-3.failiem.lv/thumb_show.php?i=kbs6q5cayq&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=7crqv2btan&view&v=1" alt="" />
+            </SliderImage>
+
             
           </SliderContainer>
         </More>
@@ -57,11 +85,15 @@ const Toldos = () => {
         <Block>
           <h2>Tipos de toldos</h2>
           <br />
-          <p>...
+          <p>Os toldos são estruturas bem versateis eles podem ser feitos fixos ende a estrutura é feira de tubos metalico e sua cobertura feita frequentemente de lona ou de policarbonato,
           </p>
+          <p>Tem tambem os toldos retrateis que você pode recolhelos quando nao há nessesidade de utilizalo, pode ser feito com catraca  onde voce utiliza uma manivela para enrolalo, com mola onde ele se enrola quando solto, ou até mesmo toldo retratil articulado que tem um braço embutido e se abre com um efeito sanfona</p>
+          <p>Os toldos retrateis podem tambem serem acionados por um motor se for de sua preferencia.</p>
+          <br />
+          <br />
           <br />
           <Image>
-            <img src="" alt="" />
+            <img src="https://fv2-8.failiem.lv/thumb_show.php?i=xz2dw8e5nw&view&v=1" alt="" />
           </Image>
         </Block>
       </Content>

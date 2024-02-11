@@ -1,17 +1,18 @@
 
-import React from "react";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
-import { getStorage } from "firebase/storage"
+import { getStorage, ref, listAll, list } from "firebase/storage"
 import { getFirestore } from "firebase/firestore"
+
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyBySlFrKGIAnL0pZwS38bGnloq0sMToA7I",
   authDomain: "cwwm-5c648.firebaseapp.com",
   projectId: "cwwm-5c648",
@@ -25,5 +26,9 @@ const firebaseConfig = {
 export const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
-export const storage = getStorage(app)
+export const storage = getStorage()
 export const txtDB = getFirestore(app)
+
+
+
+

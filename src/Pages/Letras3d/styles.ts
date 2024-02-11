@@ -42,7 +42,7 @@ export const Image = styled.div`
   }
 `
 export const Flex = styled.div`
-  width: 100%;
+  width: 80%;
   height: auto;
   display:flex;
   align-items: center;
@@ -91,6 +91,7 @@ export const SliderContainer = styled.div`
   justify-content: flex-start;
   background-color: #000;
   overflow: scroll;
+  scrollbar-width: none;
   ::-webkit-scrollbar{
     display: none;
 }
@@ -103,16 +104,22 @@ export const SliderImage = styled.div`
 `
 
 export const ButtonContainer = styled.div`
-  width: 85%;
   height: 50px;
   display: flex;
   align-items:center;
   justify-content:center;
-  gap: 90%;
   position: absolute;
+  gap: 90%;
+  width: 85%;
   transform: translatex(-3%);
   button {
-    background-color: #fff;
+    background-color: ${Props => Props.theme.colors.sec};
+    border-radius:50px;
+    border:none;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    :hover {
+      opacity: 0.5;
+    }
     width: 50px;
     height: 50px;
   }

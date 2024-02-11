@@ -9,18 +9,17 @@ const Galpao = () => {
           <Block>
             <h1>Galpões</h1>
             <h2></h2>
-            <p>Fazemos Galpões dos mais diversos modelos e com diversos tipos de materiais,
-            temos opções de galpões estaticos e galpões pre-moldados que podem ser desmontados e levados para outros lugares</p>
+            <p>Nossos galpões sao em sua maior parte feitos de uma estrutura metalica com revestimento em chapas metalicas ou em lona de alta resistencia, ele é feito em uma base concretada com vigas e colunas treliçadas dependendo do tamanho escolhido pelo cliente</p>
           </Block>
           <Box>
             <Img>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311158053_1773077206378497_3405184448410721187_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=pfjzbyQLqs0AX_ltTtg&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfBX3Ptw-1k08V0OA5ALdOOmKxnnQDivNoWJwDR68q8XIw&oe=65C0E383" alt="" />
+              <img src="https://fv9-4.failiem.lv/thumb_show.php?i=fcdcwkcxr2&view&v=1" alt="" />
             </Img>
             <Img>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311602168_1773073509712200_894402971247892798_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=To_9GDnIwhwAX_TZuf1&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfDUlV1ffWcL0OPZGylpmCPL5WxjeNELP_qVgMrZW7GegQ&oe=65C071DC" alt="" />
+              <img src="https://fv9-6.failiem.lv/thumb_show.php?i=6t34x97w2p&view&v=1" alt="" />
             </Img>
             <Img>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311585947_1773072556378962_8341581877642342432_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=5YIBNDwHZ1cAX-NQv2-&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfA74mfLzo-mXjsj3wiAb75q-9nmJ2TevW-880OP1-M8zQ&oe=65C0B06C" alt="" />
+              <img src="https://fv9-4.failiem.lv/thumb_show.php?i=p589zrmu2b&view&v=1" alt="" />
             </Img>
           </Box>
         </Flex>
@@ -32,19 +31,25 @@ const Galpao = () => {
               <button title='button' onClick={() => { slide!.scrollLeft += 200 }}>r</button>
             </ButtonContainer>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311158053_1773077206378497_3405184448410721187_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=pfjzbyQLqs0AX_ltTtg&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfBX3Ptw-1k08V0OA5ALdOOmKxnnQDivNoWJwDR68q8XIw&oe=65C0E383" alt="" />
+              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=xc5hnmfqyv&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311602168_1773073509712200_894402971247892798_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=To_9GDnIwhwAX_TZuf1&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfDUlV1ffWcL0OPZGylpmCPL5WxjeNELP_qVgMrZW7GegQ&oe=65C071DC" alt="" />
+              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=dxqedgr75c&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311585947_1773072556378962_8341581877642342432_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=5YIBNDwHZ1cAX-NQv2-&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfA74mfLzo-mXjsj3wiAb75q-9nmJ2TevW-880OP1-M8zQ&oe=65C0B06C" alt="" />
+              <img src="https://fv9-6.failiem.lv/thumb_show.php?i=2bdn7xdw9m&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311585947_1773072556378962_8341581877642342432_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=5YIBNDwHZ1cAX-NQv2-&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfA74mfLzo-mXjsj3wiAb75q-9nmJ2TevW-880OP1-M8zQ&oe=65C0B06C" alt="" />
+              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=85z25c8arp&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311585947_1773072556378962_8341581877642342432_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=5YIBNDwHZ1cAX-NQv2-&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfA74mfLzo-mXjsj3wiAb75q-9nmJ2TevW-880OP1-M8zQ&oe=65C0B06C" alt="" />
+              <img src="https://fv9-6.failiem.lv/thumb_show.php?i=r8krxm9nvq&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv9-3.failiem.lv/thumb_show.php?i=gchcngbs95&view&v=1" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=rd2bwbbu7u&view&v=1" alt="" />
             </SliderImage>
             
           </SliderContainer>
@@ -54,17 +59,21 @@ const Galpao = () => {
         <br />
         <br />
         <Block>
-          <h2>Nossos galpões</h2>
+          <h2>Os galpões </h2>
           <br />
-          <p>...
+          <p>Os galpões podem ser usados tanto como sedes de uma empresa quanto para armazenar materiais, podem ser feitos em divesos locais e sao eficiente por terem uma aplo espaço sem pilares em seu interior.
           </p>
+
           <br />
           <Image>
-            <img src="https://i.postimg.cc/nz3L2r58/cp-page-0001.jpg" alt="" />
+            <img src="https://fv9-5.failiem.lv/thumb_show.php?i=85z25c8arp&view&v=1" alt="" />
             
           </Image>
         </Block>
-        
+        <br />
+        <br />
+        <br />
+        <br />
       </Content>
     </Container>
   )

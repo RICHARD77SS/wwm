@@ -1,9 +1,13 @@
-
 import { storage } from "../../Utils/firebaseConfig";
 import { ref, getDownloadURL, uploadBytesResumable } from "firebase/storage";
-import { useState } from "react";
+import React, { useState } from "react";
 
-function UplodArea() {
+interface props {
+  locationName?: string;
+}
+
+const UplodArea: React.FC<props> = ({ locationName }) => {
+
   const [imgURL, setImgURL] = useState("");
   const [progressPorcent, setPorgessPorcent] = useState(0);
 
@@ -12,7 +16,7 @@ function UplodArea() {
     const file = event.target[0]?.files[0];
     if (!file) return;
 
-    const storageRef = ref(storage, `images/${file.name}`);
+    const storageRef = ref(storage, `${locationName}/${file.name}`);
     const uploadTask = uploadBytesResumable(storageRef, file);
 
     uploadTask.on(

@@ -9,55 +9,51 @@ const Reparos = () => {
           <Block>
             <h1>Reparos</h1>
             <h2></h2>
-            <p>Fazemos Reparos em coberturas, fachadas, placas, portões, galpões, outdors, barracas, toldos... </p>
+            <p>Fazemos Reparos em diversos tipos de estruturas como por exemplo: Coberturas, Fachadas, Placas, Portões, Galpões, Outdors, Barracas, Toldos... </p>
           </Block>
-          <Box>
-            <Img>
-              <img src="" alt="" />
-            </Img>
-            <Img>
-              <img src="" alt="" />
-            </Img>
-            <Img>
-              <img src="" alt="" />
-            </Img>
-          </Box>
         </Flex>
         <More>
-          <h2>Modelos</h2>
-          <SliderContainer id='slide'>
-            <ButtonContainer>
-              <button title='button' onClick={() => { slide!.scrollLeft -= 200 }}>l</button>
-              <button title='button' onClick={() => { slide!.scrollLeft += 200 }}>r</button>
-            </ButtonContainer>
-            <SliderImage>
-              <img src="" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="" alt="" />
-            </SliderImage>
-            
-          </SliderContainer>
+            <Img>
+              <img src="https://img.freepik.com/fotos-premium/o-trabalhador-em-mascara-protetora-solda-metal-com-uma-maquina-de-solda-profissao-soldador-trabalhando-no-jardim_145577-159.jpg?w=826" alt="" />
+            </Img>
+
         </More>
         <br />
         <br />
         <br />
         <br />
         <Block>
-          <h2>Camara fria</h2>
+          <h2>Fachadas</h2>
           <br />
-          <p>Nossas camaras frias sao feitas sob medida, um de nossos tecnicos ira fazer uma visita ao local, caso seja nessesario e entao apos entender a sua nessesidade ira fazer a cotação, a camara consiste em um cubo feito em material metalico com nucleo termoisolante e um motor que servira para fazer a refrigeração
+          <p> As fachada sao as estruturas que mais tem que ter sua beleza preservada, mas eventualmente elas podem ser danificadas seja por terceiros, efeitos do tempo, falta de limpeza ou até devido a uma má instalaçâo.
           </p>
           <br />
-          <Image>
-            <img src="https://i.postimg.cc/nz3L2r58/cp-page-0001.jpg" alt="" />
-            
-          </Image>
         </Block>
-        
+        <Block>
+          <h2>Estruturas metalicas</h2>
+          <br />
+          <p> Geralmente sâo feitos em estruturas com pequenos detalhes, pontos enferrujados ou parte quebradas, mas que aida podem ser utilizada em sua maior parte
+          </p>
+          <br />
+        </Block>
+        <Block>
+          <h2>Coberturas e telhados</h2>
+          <br />
+          <p> A parte de reparos em coberturas pode ir desde tirar pequenos vasamentos ate fazer a troca de telhas quebradas ou amassada
+          </p>
+          <br />
+        </Block>
+        <Block>
+          <h2>Calhas</h2>
+          <br />
+          <p> O reparo de calhas é bem frequente e requisitado quando a mesma ja nao desempenha o papel desejado, seja por conta de ferrugem, entupimentos, ou ate mal dimensionamento da calha.
+          </p>
+          <br />
+        </Block>
+        <br />
+        <br />
+        <br />
+        <br />
       </Content>
     </Container>
   )

@@ -13,13 +13,13 @@ const Coberturas = () => {
           </Block>
           <Box>
             <Img>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311589060_1773075966378621_4158242642494254744_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=QSnepW87vMkAX-HnuM2&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfC1Y-KsCRMalAV-Ml5XUBF2BJeYjoB2CxkePvN1nZzEfg&oe=65BDF29A" alt="" />
+              <img src="https://fv9-4.failiem.lv/thumb_show.php?i=h3rve7rjnh&view&v=1" alt="" />
             </Img>
             <Img>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311240572_1773075426378675_1074009078425450106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=45pyQM6mCwUAX_ACKCO&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfBR9AFX3nHSRKHJJ_AU9OVHgf60dcjX1TA4f_U9KAH9cw&oe=65BCB585" alt="" />
+              <img src="https://fv9-7.failiem.lv/thumb_show.php?i=bsedrcfccp&view&v=1" alt="" />
             </Img>
             <Img>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311184951_1773074119712139_2575656228680963747_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=P3IYy22BZ3UAX_e22bm&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfB746HyMoIzl5-rDWF-KYVkFzkre7XpgClCcwhwVdy-fA&oe=65BD6261" alt="" />
+              <img src="https://fv9-2.failiem.lv/thumb_show.php?i=hc66qq6e8z&view&v=1" alt="" />
             </Img>
           </Box>
         </Flex>
@@ -31,25 +31,25 @@ const Coberturas = () => {
               <button title='button' onClick={() => { slide!.scrollLeft += 200 }}>r</button>
             </ButtonContainer>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311184951_1773074119712139_2575656228680963747_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=P3IYy22BZ3UAX_e22bm&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfB746HyMoIzl5-rDWF-KYVkFzkre7XpgClCcwhwVdy-fA&oe=65BD6261" alt="" />
+              <img src="https://fv9-2.failiem.lv/thumb_show.php?i=9e26yknxwb&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311240572_1773075426378675_1074009078425450106_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=45pyQM6mCwUAX_ACKCO&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfBR9AFX3nHSRKHJJ_AU9OVHgf60dcjX1TA4f_U9KAH9cw&oe=65BCB585" alt="" />
+              <img src="https://fv9-2.failiem.lv/thumb_show.php?i=hc66qq6e8z&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311589060_1773075966378621_4158242642494254744_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=QSnepW87vMkAX-HnuM2&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfC1Y-KsCRMalAV-Ml5XUBF2BJeYjoB2CxkePvN1nZzEfg&oe=65BDF29A" alt="" />
+              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=me3bh387fn&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311568710_1773075999711951_3790920273592422583_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=1MZ7p_BjnQcAX_125wL&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfClrOb8Ry0te1nPYu15lLnPfCjIO9ERLcg7iIpbK_4LDg&oe=65BC6089" alt="" />
+              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=um6kkwychv&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311144532_1773075689711982_3313666973909309202_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=9e4NxtE0NmEAX9cj8sg&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfA6tG3tTLcxFpWhUveKouKmHSisYUGV1_e88LT7ldHzJw&oe=65BC97F5" alt="" />
+              <img src="https://fv9-7.failiem.lv/thumb_show.php?i=bsedrcfccp&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311240550_1773077159711835_5218532853077124367_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=AGARafI19rsAX-LSUW2&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfC1Nq4SzH3Rfy76qggDgyBy_7S-FsLwIOKXwusdOtSxYA&oe=65BD5D73" alt="" />
+              <img src="https://fv9-4.failiem.lv/thumb_show.php?i=h3rve7rjnh&view&v=1" alt="" />
             </SliderImage>
             <SliderImage>
-              <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311476942_1773075383045346_5832493349937342850_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=vMUTPPukp00AX9pUfwM&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfBEI5S-k8JarOvbcYoaL4TbzQ_XmvfZNZLnQG8Ij1Oa2g&oe=65BCE8E5" alt="" />
+              <img src="https://jaferroeaco.com.br/wp-content/uploads/2022/01/Telhas-Termoacusticas-sem-revestimento2.jpg" alt="" />
             </SliderImage>
           </SliderContainer>
         </More>

@@ -39,7 +39,15 @@ const CamaraFria = () => {
             <SliderImage>
               <img src="https://images.tcdn.com.br/img/img_prod/687849/mini_camara_frigorifica_1000kg_para_congelados_inox_3_330_litros_klima_1683_1_20190309144352.jpg" alt="" />
             </SliderImage>
-            
+            <SliderImage>
+              <img src="https://www.weinberger.com.br/blog/wp-content/uploads/2018/05/WEINBERGER_BLOG_ABRIL_SAIBA-QUAIS-OS-PRINCIPAIS-CUIDADOS-QUE-VOC%C3%8A-DEVE-TER-COM-A-C%C3%82MARA-FRIA-1024x652.jpg" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://cdn.leroymerlin.com.br/products/camara_fria_gallant_2x3_resfriado_s__piso_cond_elgin_220v_1f_1566688832_b678_600x600.jpg" alt="" />
+            </SliderImage>
+            <SliderImage>
+              <img src="https://www.climatis.com.br/Blog/wp-content/uploads/2022/05/camara-300x195.png" alt="" />
+            </SliderImage>
           </SliderContainer>
         </More>
         <br />
@@ -53,11 +61,14 @@ const CamaraFria = () => {
           </p>
           <br />
           <Image>
-            <img src="https://i.postimg.cc/nz3L2r58/cp-page-0001.jpg" alt="" />
+            <img src="https://www.weinberger.com.br/blog/wp-content/uploads/2018/05/WEINBERGER_BLOG_ABRIL_SAIBA-QUAIS-OS-PRINCIPAIS-CUIDADOS-QUE-VOC%C3%8A-DEVE-TER-COM-A-C%C3%82MARA-FRIA-1024x652.jpg" alt="" />
             
           </Image>
         </Block>
-        
+        <br />
+        <br />
+        <br />
+        <br />
       </Content>
     </Container>
   )

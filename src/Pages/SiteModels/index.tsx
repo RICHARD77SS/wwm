@@ -2,10 +2,14 @@
 import { Models, Image, Wrapper, Block, Description } from "./styles";
 import { NavLink } from "react-router-dom";
 import UplodArea from './../uploadArea/index';
-import StoreImageTextFirebase from "../ImagesTest";
+import ImageGallery from "../ShowImages";
+
+
+
 
 
 const SiteModels = () => {
+
   return (
     <Models>
       <h2>Serviços oferecidos</h2>
@@ -16,15 +20,12 @@ const SiteModels = () => {
             <h3>Coberturas e telhados</h3>
             <NavLink to=''>Saiba mais  </NavLink>
           </Description>
-          <Image>
-            <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/311184951_1773074119712139_2575656228680963747_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=P3IYy22BZ3UAX_e22bm&_nc_ht=scontent.fcgh2-1.fna&oh=00_AfB746HyMoIzl5-rDWF-KYVkFzkre7XpgClCcwhwVdy-fA&oe=65BD6261" alt="" />
-          </Image>
         </Block>
-
+        <ImageGallery locationName='coberturas' />
         <Block>
-          <UplodArea />
+          <UplodArea locationName="coberturas" />
           <br />
-          < StoreImageTextFirebase />
+
           <Description>
             <h3>Fachadas</h3>
             <NavLink to=''>Saiba mais</NavLink>

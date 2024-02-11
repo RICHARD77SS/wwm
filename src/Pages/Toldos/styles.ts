@@ -29,13 +29,16 @@ export const Block = styled.div`
   h1{
     color:${Props => Props.theme.colors.sec};
   }
+  p {
+    color:#fff;
+  }
   @media (max-width:667px){
     width: 80%;
   }
 `
 export const Image = styled.div`
   width:80%;
-  height: 300px;
+  height: auto;
   display: flex;
   img{
     width:100%;
@@ -65,7 +68,6 @@ export const Img = styled.div`
   width: 200px;
   height: 250px;
   border-radius: 30px 0 30px 0;
-  z-index:20;
   box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.2);
   img{
     width: 100%;
@@ -93,6 +95,7 @@ export const SliderContainer = styled.div`
   justify-content: flex-start;
   background-color: #000;
   overflow: scroll;
+  scrollbar-width: none;
   ::-webkit-scrollbar{
     display: none;
 }

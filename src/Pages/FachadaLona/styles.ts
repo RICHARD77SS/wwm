@@ -85,6 +85,7 @@ export const SliderContainer = styled.div`
   justify-content: flex-start;
   background-color: #000;
   overflow: scroll;
+  scrollbar-width: none;
   ::-webkit-scrollbar{
     display: none;
 }
@@ -105,7 +106,13 @@ export const ButtonContainer = styled.div`
   position: absolute;
   transform: translatex(-3%);
   button {
-    background-color: #fff;
+    background-color: ${Props => Props.theme.colors.sec};
+    border-radius:50px;
+    border:none;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    :hover {
+      opacity: 0.5;
+    }
     width: 50px;
     height: 50px;
   }
