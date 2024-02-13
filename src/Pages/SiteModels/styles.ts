@@ -60,7 +60,7 @@ export const Block = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  padding-left: 10%;
+  border-bottom: 15px solid ${Props=>Props.theme.colors.pri};
 `
 export const Description = styled.div`
   width: auto;
@@ -69,18 +69,18 @@ export const Description = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding:  2rem 0 2rem 0; 
+  padding:  8rem 0 0rem 0; 
   h3{
     font-size: 2rem;
-    color: #0a0a0a;
+    color: ${Props=>Props.theme.colors.pri};
   }
   a{
     padding: 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-     color:${Props => Props.theme.colors.pri}; 
+    color:${Props => Props.theme.colors.pri}; 
      :hover {
-       color:${Props => Props.theme.colors.hover};
+       color:${Props => Props.theme.colors.title};
      }
   }
 `  

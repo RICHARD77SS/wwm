@@ -25,14 +25,15 @@ export const Block = styled.div`
   flex-direction:column;
   align-items:center;
   justify-content:center;
+  padding-bottom:4rem;
   h1{
-    color:${Props => Props.theme.colors.sec};
+    color:${Props => Props.theme.colors.title};
   }
   p{
-    color:#fff;
+    color:${Props => Props.theme.colors.subtitle};
   }
-  @media (max-width:667px){
-    width: 80%;
+  @media (max-width:425px){
+    width: 100%;
   }
 `
 export const Image = styled.div`
@@ -51,7 +52,7 @@ export const Flex = styled.div`
   align-items: center;
   justify-content: space-around;
   gap:1rem;
-  @media (max-width:667px){
+  @media (max-width:425px){
     flex-direction:column;
   }
 `
@@ -62,6 +63,9 @@ export const Box = styled.div`
   align-items:center;
   justify-content:start;
   gap: 16px;
+  @media (max-width:425px){
+    width: 100%;
+  }
 `
 export const Img = styled.div`
   width: 200px;
@@ -87,7 +91,7 @@ export const More = styled.div`
 
 export const SliderContainer = styled.div`
   max-width: 80%;
-  height: 250px;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -98,32 +102,4 @@ export const SliderContainer = styled.div`
     display: none;
 }
   scrollbar-width: none;
-`
-
-export const SliderImage = styled.div`
-  width: 200px;
-  height: 200px;
-  display: flex;
-`
-
-export const ButtonContainer = styled.div`
-  width: 85%;
-  height: 50px;
-  display: flex;
-  align-items:center;
-  justify-content:center;
-  gap: 90%;
-  position: absolute;
-  transform: translatex(-3%);
-  button {
-    width: 50px;
-    height: 50px;
-    background-color: ${Props => Props.theme.colors.sec};
-    border-radius:50px;
-    border:none;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
-    :hover {
-      opacity: 0.5;
-    }
-  }
 `

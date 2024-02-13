@@ -1,4 +1,5 @@
-import { Container, Content, Block, Box, Flex, Img, More, SliderContainer, SliderImage, ButtonContainer, Image } from './styles'
+import ImageGallery from '../ShowImages'
+import { Container, Content, Block, Box, Flex, Img, More, SliderContainer, Image } from './styles'
 const Coberturas = () => {
 
   const slide = document.getElementById('slide')
@@ -25,32 +26,8 @@ const Coberturas = () => {
         </Flex>
         <More>
           <h2>Modelos</h2>
-          <SliderContainer id='slide'>
-            <ButtonContainer>
-              <button title='button' onClick={() => { slide!.scrollLeft -= 200 }}>l</button>
-              <button title='button' onClick={() => { slide!.scrollLeft += 200 }}>r</button>
-            </ButtonContainer>
-            <SliderImage>
-              <img src="https://fv9-2.failiem.lv/thumb_show.php?i=9e26yknxwb&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-2.failiem.lv/thumb_show.php?i=hc66qq6e8z&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=me3bh387fn&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=um6kkwychv&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-7.failiem.lv/thumb_show.php?i=bsedrcfccp&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-4.failiem.lv/thumb_show.php?i=h3rve7rjnh&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://jaferroeaco.com.br/wp-content/uploads/2022/01/Telhas-Termoacusticas-sem-revestimento2.jpg" alt="" />
-            </SliderImage>
+          <SliderContainer>
+            <ImageGallery locationName='coberturas' />
           </SliderContainer>
         </More>
         <br />
@@ -65,7 +42,7 @@ const Coberturas = () => {
           <br />
           <Image>
             <img src="https://i.postimg.cc/nz3L2r58/cp-page-0001.jpg" alt="" />
-            
+
           </Image>
         </Block>
         <br />
@@ -79,7 +56,7 @@ const Coberturas = () => {
           <br />
           <Image>
             <img src="https://jaferroeaco.com.br/wp-content/uploads/2022/01/Telhas-Termoacusticas-sem-revestimento2.jpg" alt="" />
-            
+
           </Image>
         </Block>
         <br />
@@ -93,7 +70,7 @@ const Coberturas = () => {
           <br />
           <Image>
             <img src="https://i.postimg.cc/59S99QvW/D-NQ-NP-767884-MLB53559730028-022023-O.webp" alt="" />
-            
+
           </Image>
         </Block>
       </Content>

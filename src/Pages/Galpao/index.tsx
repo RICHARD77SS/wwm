@@ -1,4 +1,5 @@
-import { Container, Content, Block, Box, Flex, Img, More, SliderContainer, SliderImage, ButtonContainer, Image } from './styles'
+import ImageGallery from '../ShowImages';
+import { Container, Content, Block, Box, Flex, Img, More, SliderContainer, Image } from './styles'
 const Galpao = () => {
 
   const slide = document.getElementById('slide')
@@ -25,33 +26,8 @@ const Galpao = () => {
         </Flex>
         <More>
           <h2>Modelos</h2>
-          <SliderContainer id='slide'>
-            <ButtonContainer>
-              <button title='button' onClick={() => { slide!.scrollLeft -= 200 }}>l</button>
-              <button title='button' onClick={() => { slide!.scrollLeft += 200 }}>r</button>
-            </ButtonContainer>
-            <SliderImage>
-              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=xc5hnmfqyv&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=dxqedgr75c&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-6.failiem.lv/thumb_show.php?i=2bdn7xdw9m&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=85z25c8arp&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-6.failiem.lv/thumb_show.php?i=r8krxm9nvq&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-3.failiem.lv/thumb_show.php?i=gchcngbs95&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv9-5.failiem.lv/thumb_show.php?i=rd2bwbbu7u&view&v=1" alt="" />
-            </SliderImage>
-            
+          <SliderContainer>
+            <ImageGallery locationName='galpao' />
           </SliderContainer>
         </More>
         <br />

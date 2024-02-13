@@ -1,4 +1,5 @@
-import { Container, Content, Block, Box, Flex, Img, More, SliderContainer, SliderImage, ButtonContainer, Image } from './styles'
+import ImageGallery from '../ShowImages';
+import { Container, Content, Block, Box, Flex, Img, More, SliderContainer, Image } from './styles'
 
 const Toldos = () => {
 
@@ -27,55 +28,8 @@ const Toldos = () => {
         </Flex>
         <More>
           <h2>Modelos</h2>
-          <SliderContainer id='slide'>
-            <ButtonContainer>
-              <button title='button' onClick={() => { slide!.scrollLeft -= 200 }}>l</button>
-              <button title='button' onClick={() => { slide!.scrollLeft += 200 }}>r</button>
-            </ButtonContainer>
-            <SliderImage>
-              <img src="https://fv2-7.failiem.lv/thumb_show.php?i=wsdry2h5dx&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-8.failiem.lv/thumb_show.php?i=xz2dw8e5nw&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=4uaknrfqc4&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-5.failiem.lv/thumb_show.php?i=ustt52tr7g&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-7.failiem.lv/thumb_show.php?i=mneeq9hkzd&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=fnfh4ehapp&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-5.failiem.lv/thumb_show.php?i=3wc2qcjpdf&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-3.failiem.lv/thumb_show.php?i=4m7nfd3sfk&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=cmfuuffcvs&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-7.failiem.lv/thumb_show.php?i=cyyw2q95r4&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-3.failiem.lv/thumb_show.php?i=a2ktfxqazf&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-6.failiem.lv/thumb_show.php?i=4w5s2zqnt6&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-3.failiem.lv/thumb_show.php?i=kbs6q5cayq&view&v=1" alt="" />
-            </SliderImage>
-            <SliderImage>
-              <img src="https://fv2-4.failiem.lv/thumb_show.php?i=7crqv2btan&view&v=1" alt="" />
-            </SliderImage>
-
-            
+          <SliderContainer>
+            <ImageGallery locationName='toldos' />
           </SliderContainer>
         </More>
         <br />
@@ -93,7 +47,7 @@ const Toldos = () => {
           <br />
           <br />
           <Image>
-            <img src="https://fv2-8.failiem.lv/thumb_show.php?i=xz2dw8e5nw&view&v=1" alt="" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/cwwm-5c648.appspot.com/o/toldos%2FSnapinsta.app_412297140_704896068283828_1316233266633509419_n_1080.jpg?alt=media&token=d205fcdb-23fd-4922-bc6c-e0d315779fd2" alt="" />
           </Image>
         </Block>
       </Content>

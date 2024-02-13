@@ -12,7 +12,7 @@ export const Item = styled.li`
   cursor:pointer;
   font-size: 1.5rem;
   a {
-    color:  #000;
+    color:  #fff;
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -20,7 +20,7 @@ export const Item = styled.li`
     align-items:Center;
     justify-content: center;
     :hover {
-    color:#fff;
+    color:${Props => Props.theme.colors.title};
     }
   }
 `

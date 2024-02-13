@@ -26,7 +26,10 @@ export const Block = styled.div`
   align-items:center;
   justify-content:center;
   h1{
-    color:${Props => Props.theme.colors.sec};
+    color:${Props => Props.theme.colors.title};
+  }
+  p{
+    color:${Props => Props.theme.colors.subtitle};
   }
   @media (max-width:667px){
     width: 80%;
@@ -34,11 +37,15 @@ export const Block = styled.div`
 `
 export const Image = styled.div`
   width:80%;
-  height: 300px;
+  height: auto;
   display: flex;
+  margin-bottom: 4rem;
   img{
     width:100%;
     height: 100%;
+  }
+  @media (max-width:425px){
+    width: 100%;
   }
 `
 export const Flex = styled.div`
@@ -84,7 +91,7 @@ export const More = styled.div`
 
 export const SliderContainer = styled.div`
   max-width: 80%;
-  height: 250px;
+  height: 550px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -95,32 +102,4 @@ export const SliderContainer = styled.div`
   ::-webkit-scrollbar{
     display: none;
 }
-`
-
-export const SliderImage = styled.div`
-  width: 200px;
-  height: 200px;
-  display: flex;
-`
-
-export const ButtonContainer = styled.div`
-  height: 50px;
-  display: flex;
-  align-items:center;
-  justify-content:center;
-  position: absolute;
-  gap: 90%;
-  width: 85%;
-  transform: translatex(-3%);
-  button {
-    background-color: ${Props => Props.theme.colors.sec};
-    border-radius:50px;
-    border:none;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
-    :hover {
-      opacity: 0.5;
-    }
-    width: 50px;
-    height: 50px;
-  }
 `

@@ -3,6 +3,7 @@ import 'firebase/storage';
 import firebase from 'firebase/compat/app'; // Importe 'compat/app'
 import 'firebase/compat/storage'; // Importe 'compat/storage'
 import { firebaseConfig } from '../../Utils/firebaseConfig';
+import { Container, SliderContainer, SliderImage, ButtonContainer } from './styles';
 
 interface props {
   locationName?: string;
@@ -39,22 +40,29 @@ const ImageGallery: React.FC<props> = ({ locationName }) => {
 
   // Renderize as imagens
   return (
-    <div>
+    <Container>
+
       {loading ? (
         <p>Carregando...</p>
       ) : (
-        <div>
+        <SliderContainer id='slide'>
+          <ButtonContainer>
+            <button title='button' onClick={() => { document.getElementById('slide')!.scrollLeft -= 450 }}>	&lt;</button>
+            <button title='button2' onClick={() => { document.getElementById('slide')!.scrollLeft += 450 }}>&gt;</button>
+          </ButtonContainer>
           {items.map((item) => (
-            <img
-              key={item.name}
-              src={item.url}
-              alt={item.name}
-              style={{ maxWidth: '200px', margin: '10px' }}
-            />
+            <SliderImage >
+              <img
+                key={item.name}
+                src={item.url}
+                alt={item.name}
+                style={{ maxWidth: '450px', margin: '10px' }}
+              />
+            </SliderImage >
           ))}
-        </div>
+        </SliderContainer >
       )}
-    </div>
+    </Container>
   );
 };
 

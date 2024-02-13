@@ -1,11 +1,11 @@
 export default {
   title: 'light',
   colors: {
-    pri: '#9b72cf',
-    sec: '#dcf763',
+    pri: '#FFEC00 ',
+    sec: '#000',
 
-    title: '#222725',
-    subtitle: 'rgba(20,20,20,0.9)',
+    title: '#f00',
+    subtitle: '#000',
     paragraph: 'rgba(40,40,40,0.9)',
 
     button1: 'rgba(255,255,255,0.9)',

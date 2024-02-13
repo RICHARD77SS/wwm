@@ -1,4 +1,4 @@
-import { Container, Content, Block, Box, Flex, Img, More, SliderContainer, SliderImage, ButtonContainer, Image } from './styles'
+import { Container, Content, Block, Flex, Img, More, Image } from './styles'
 const Reparos = () => {
 
   const slide = document.getElementById('slide')

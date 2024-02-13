@@ -6,14 +6,13 @@ export const TopNav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: ${Props => Props.theme.colors.pri};
-  border-bottom: 5px solid #dcf763;
+  background: ${Props => Props.theme.colors.sec};
+  border-bottom: 5px solid #FFEC00 ;
   padding: 0 10%;
   button{
     width: 40px;
     height: 30px;
     margin: 10px;
-
   }
   h2{
     margin: 8px 10px;
@@ -23,7 +22,7 @@ export const TopNav = styled.nav`
       display: block;
       border: none;
       width: auto;
-      color:#000;
+      color:${Props => Props.theme.colors.pri};
       font-size: 1rem;
     }
   }

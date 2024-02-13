@@ -26,10 +26,10 @@ export const Block = styled.div`
   align-items:center;
   justify-content:center;
   h1{
-    color:${Props => Props.theme.colors.sec};
+    color:${Props => Props.theme.colors.title};
   }
   p{
-    color:#fff;
+    color:${Props => Props.theme.colors.subtitle};
   }
   @media (max-width:667px){
     width: 80%;
@@ -55,14 +55,6 @@ export const Flex = styled.div`
     flex-direction:column;
   }
 `
-export const Box = styled.div`
-  width: 50%;
-  height: auto;
-  display:flex;
-  align-items:center;
-  justify-content:start;
-  gap: 16px;
-`
 export const Img = styled.div`
   width: 400px;
   height: 400px;
@@ -81,48 +73,4 @@ export const More = styled.div`
   flex-direction:column;
   align-items:center;
   justify-content:start;
-`
-
-
-export const SliderContainer = styled.div`
-  max-width: 80%;
-  height: 250px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: #000;
-  overflow: scroll;
-  scrollbar-width: none;
-  ::-webkit-scrollbar{
-    display: none;
-}
-`
-
-export const SliderImage = styled.div`
-  width: 200px;
-  height: 200px;
-  display: flex;
-`
-
-export const ButtonContainer = styled.div`
-  width: 85%;
-  height: 50px;
-  display: flex;
-  align-items:center;
-  justify-content:center;
-  gap: 90%;
-  position: absolute;
-  transform: translatex(-3%);
-  button {
-    background-color: ${Props => Props.theme.colors.sec};
-    border-radius:50px;
-    border:none;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
-    :hover {
-      opacity: 0.5;
-    }
-    width: 50px;
-    height: 50px;
-  }
 `
